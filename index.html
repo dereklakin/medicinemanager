@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+    <meta charset="utf-8">
+    <!--   [[1]]  # App title #        -->
+    <title>Medicine Manager</title>
+    <meta name="description" content="Medicine Manager for your Windows Phone">
+    <meta name="author" content="Derek Lakin: dereklakin.com">
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">    
+    
+    <link rel="stylesheet" href="stylesheets/base.min.css">
+    <link rel="stylesheet" href="stylesheets/skeleton.css">
+    <link rel="stylesheet" href="stylesheets/layout.css">
+
+    <style type="text/css">
+
+/*     [[3]] #Windows Phone App Website Branding Styles */
+
+    /* Text and Background colour */
+    body {
+        color: #000;
+        background-color:#F09609;
+    }
+    
+    /* Header Colours */
+    h1, h2, h3, h4, h5, h6 {color: #333;}
+    
+    /* Link colour */
+    a, a:visited { color: #666;}
+
+    /* Logo */
+    #header #logo h1 {
+        width: 175px;
+        height: 110px;
+        background: transparent url(images/branding/logo.jpg) no-repeat;
+    }
+
+    /* Strapline colour */
+    #header #strapline p {color: #000;}
+
+    /* App Feature List - define custom feature icons here -  */
+    ul.featurelist li.BulletImage { background-image: url(images/listcircle.png);}
+
+    /* User Review Quote */
+    blockquote.user_quote p {color: #666;}
+
+    </style>
+
+    <link rel="shortcut icon" href="images/branding/favicon.ico">
+
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-58437-10']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+</head>
+<body>
+
+    <div id="maincontainer" class="container">
+    
+        <div class="sixteen columns" id="header">
+        
+            <div id="logo" class="four columns alpha">
+<!--    [[4]]    # App title #        -->    
+                <h1>Medicine Manager</h1>
+            </div>
+            
+            <div id="strapline" class="six columns omega offset-by-six">
+<!--    [[5]]    # App strapline #        -->    
+                <p>Never forget your meds<br />with Medicine Manager</p>
+            </div>
+        </div>
+        <br class="clear"/>
+        <div class="sixteen columns" id="contentcontainer">
+        
+            <div class="four columns alpha">
+                <h2>Latest</h2>
+<!--    # Twitter Feed  #        -->    
+                <div class="tweet"></div> 
+<!--    [[6]]    # Twitter Follow Button : Enter your twitter link below #        -->    
+                <a href="https://twitter.com/dereklakin" class="twitter-follow-button" data-show-count="false">Follow dereklakin</a>
+            </div>
+                
+            <div id="phonescreens" class="six columns">
+                <div id="slider">
+<!--    [[7]]    # App Screenshots - Replace items in this list with your own 240x400px Images #        -->    
+                    <ul>                
+                        <li><img src="images/screenshots/page01.jpg" alt="Home - Medicine (empty)" /></li>
+                        <li><img src="images/screenshots/page01a.jpg" alt="Home - Today (empty)" /></li>
+                        <li><img src="images/screenshots/page01b.jpg" alt="Home - About" /></li>
+                        <li><img src="images/screenshots/page02.jpg" alt="Medicine - New" /></li>
+                        <li><img src="images/screenshots/page03.jpg" alt="Medicine - Schedule (empty)" /></li>
+                        <li><img src="images/screenshots/page04.jpg" alt="Schedule - New" /></li>
+                        <li><img src="images/screenshots/page05.jpg" alt="Reminder - New" /></li>
+                        <li><img src="images/screenshots/page06.jpg" alt="Schedule - Reminders List" /></li>
+                        <li><img src="images/screenshots/page07.jpg" alt="Medicine - Schedule" /></li>
+                        <li><img src="images/screenshots/page08.jpg" alt="Home - Medicine" /></li>
+                        <li><img src="images/screenshots/page09.jpg" alt="Home - Today" /></li>
+                    </ul>
+                </div>
+<!--    [[8]]    # App Marketplace Link - Find your app on the marketplace and insert the URL below#        -->    
+                <p class="downloadlink"><a href="http://windowsphone.com/s?appid=34faead2-651a-404d-86fb-7c3a57600cdb">Download for Windows Phone</a></p>
+            </div>
+            
+            <div id="features" class="six columns omega">
+                <h2>Features</h2>
+<!--    [[9]]    # App Feature List #        -->    
+                <ul class="featurelist">
+                    <li class="BulletImage" style="color:#E5001b;">Special launch price of &pound;0.99 (&#36;1.29)<br />Get it now before the price goes up!</li>
+                    <li class="BulletImage">Add multiple medications</li>
+                    <li class="BulletImage">Add different schedules for the same medication, which is great if you're on an increasing or decreasing dose</li>
+                    <li class="BulletImage">Use your phone to remind you what to take and what dose</li>
+                    <li class="BulletImage">Turn individual reminders off if you don't need them</li>
+                    <li class="BulletImage">Add a photo to help you pick the right medication</li>
+                    <li class="BulletImage">See what you have to take and when today from the Home screen</li>
+                </ul>
+
+                <h2>Coming Soon</h2>
+                <p>Have your say in new features by suggesting and voting on <a href="http://dereklakin.uservoice.com" title="UserVoice">UserVoice</a>.</p>
+<!--    [[10]]    # User Reviews & Quotes #        -->    
+                <!--<blockquote class="user_quote">
+                    <p>Review content</p>
+                    <cite>Reviewer</cite>
+                </blockquote>-->
+            </div>
+        </div>
+    </div>
+
+<!--    # Footer #        -->    
+    <div class="container" id="footer">
+        <!--<p><a href="http://wp7appsite.codeplex.com/">WP7 App Site</a> by <a href="http://www.space-scape.com/">Nick Harewood</a></p>-->
+    </div>
+
+    <!-- Load all the JS -->
+    <script type="text/javascript" src="javascripts/jsLoader.js"></script>
+    <script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+    //    [[2]]    # Twitter Feed Options - see http://tweet.seaofclouds.com/ for details # 
+        jQuery(function($){
+            $(".tweet").tweet({
+                username: "dereklakin",
+                join_text: "auto",
+                count: 3,
+                auto_join_text_default: "I said:",
+                auto_join_text_ed: "I",
+                auto_join_text_ing: "I was",
+                auto_join_text_reply: "",
+                auto_join_text_url: "",
+                loading_text: "loading tweets..."
+            });
+        });
+
+    </script>
+
+    <script type="text/javascript">
+//    [[11]]    # UserVoice Widget code location
+      var uvOptions = {};
+      (function() {
+        var uv = document.createElement('script'); uv.type = 'text/javascript'; uv.async = true;
+        uv.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'widget.uservoice.com/9NaqJ1wotcAUOe4GGuFt7g.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(uv, s);
+      })();
+
+//    [[12]]    # Screenshot Slider options #        
+        $(document).ready(function(){    
+            $("#slider").easySlider({
+                auto: true, 
+                continuous: true,
+                pause: 5000,
+                controlsShow: false
+            });
+        });    
+    </script>
+
+</body>
+</html>
