@@ -89,7 +89,7 @@
 
 	p.downloadlink  {
 		display: block;
-		margin: 180px auto 0px;
+		margin: 150px auto 0px;
 		text-align: center;
 	}
 	
@@ -123,12 +123,20 @@
 		padding-left: 30px;
 		background:transparent url(../images/listcircle.png) no-repeat;
 	}
+	ul.changelog {
+	     margin-bottom: 20px;
+	     padding-left: -25px;
+	}
+	ul.changelog li {
+		line-height: 20px;
+		list-style-type: square;
+		margin-bottom: 0px;
+	}
 /* Quotes */
 	
 	blockquote.user_quote {
 		border-left: none;
 		padding: 0;
-		margin-top: 50px;
 	}
 
 	blockquote.user_quote p {
